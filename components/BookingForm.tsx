@@ -43,7 +43,9 @@ export default function BookingForm() {
       }]);
 
       if (apptError) throw apptError;
-
+	  
+	  console.log("Supabase URL:", process.env.NEXT_PUBLIC_SUPABASE_URL);
+	  
       // 3 & 4. SMS and Email Confirmation (Simulated via console/Make.com)
       console.log(`SMS to ${form.phone}: Your appt at Canuck Dentist is confirmed for ${form.time}.`);
       console.log(`Email to ${form.email}: Detailed confirmation sent.`);
