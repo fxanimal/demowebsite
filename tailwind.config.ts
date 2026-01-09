@@ -9,10 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // You can add custom clinic brand colors here
         clinic: {
-          primary: "#2563eb", // Blue-600
-          secondary: "#4f46e5", // Indigo-600
+          primary: "#2563eb",
+          secondary: "#4f46e5",
         }
       },
     },
